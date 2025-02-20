@@ -1,4 +1,4 @@
-# Checkout Pro - Plataforma de Checkouts Personalizáveis
+# Funil de Vendas - Plataforma de Checkouts Personalizáveis
 
 Uma plataforma moderna e flexível para criar e gerenciar checkouts personalizados para seus produtos digitais e físicos.
 
@@ -39,15 +39,16 @@ Uma plataforma moderna e flexível para criar e gerenciar checkouts personalizad
 - Tailwind CSS
 - React Router
 - Zustand (Gerenciamento de Estado)
+- Supabase (Backend e Autenticação)
 
 ## 📦 Instalação
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/checkout-pro.git
+git clone https://github.com/agencycoders/funildevendas.git
 
 # Entre no diretório
-cd checkout-pro
+cd funildevendas
 
 # Instale as dependências
 npm install
@@ -63,7 +64,8 @@ npm run dev
 Crie um arquivo `.env` na raiz do projeto:
 
 ```env
-VITE_API_URL=sua_url_api
+VITE_SUPABASE_URL=sua_url_supabase
+VITE_SUPABASE_ANON_KEY=sua_chave_anonima_supabase
 VITE_STRIPE_PUBLIC_KEY=sua_chave_publica_stripe
 ```
 
@@ -132,7 +134,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 📞 Suporte
 
-Para suporte, envie um email para suporte@checkoutpro.com ou abra uma issue no repositório.
+Para suporte, envie um email para suporte@agencycoders.com ou abra uma issue no repositório.
 
 ## 🔄 Atualizações Futuras
 
@@ -141,4 +143,4 @@ Para suporte, envie um email para suporte@checkoutpro.com ou abra uma issue no r
 - [ ] Checkout em múltiplas línguas
 - [ ] Mais opções de personalização
 - [ ] API pública para integrações
-- [ ] Webhooks personalizáveis 
+- [ ] Webhooks personalizáveis
